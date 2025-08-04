@@ -5,7 +5,8 @@
 <img width="2651" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-08-04-204255" src="https://github.com/user-attachments/assets/491b2868-e22c-495a-8fed-1faba3f7bba8" />
 
 # Codigo 
-  ```Python
+  ```
+Python
     class Navegador:
     def __init__(self):
         self.atras = []
@@ -57,7 +58,8 @@ Desarrollar un sistema para una entidad pública que atienda a sus clientes por 
 
 
 # Codigo
-  ```Python
+  ```
+Python
       from collections import deque
        import time
         class AtencionCiudadana:
@@ -114,12 +116,18 @@ Desarrollar un sistema para una entidad pública que atienda a sus clientes por 
 
  ```
 # PUNTO 3 
+
 Cree una función de autocompletar que, dado un prefijo, devuelva todas las palabras posibles que comiencen con ese prefijo, similar a un motor de búsqueda.3
+
 # DIAGRAMA DE FLUJO
+
 <img width="2306" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-08-04-205716" src="https://github.com/user-attachments/assets/b2d71854-cebb-4328-8ef7-2d3d7ece803c" />
+
 # CODIGO
-  ```Python
-     class TrieNode:
+
+```
+Python
+   class TrieNode:
     def __init__(self):
         self.children = {}     # Diccionario de letras hijas
         self.is_end_of_word = False  # Marca el final de una palabra
@@ -176,4 +184,4 @@ if __name__ == "__main__":
         else:
             print("No se encontraron coincidencias.")
 
-  ```
+```
